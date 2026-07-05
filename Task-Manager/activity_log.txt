@@ -1,0 +1,7 @@
+2026-07-05 08:52:04.906941 | User_id: 1 | Action: User registered
+2026-07-05 08:52:18.908328 | User_id: 1 | Action: User logged in
+2026-07-05 08:59:50.260980 | User_id: 1 | Action: User logged in
+2026-07-05 09:00:23.968112 | User_id: 1 | Action: Task added
+2026-07-05 09:01:10.651958 | User_id: 1 | Action: Task fully updated
+2026-07-05 09:01:43.533995 | User_id: 1 | Action: Task partially updated
+2026-07-05 09:01:53.186231 | User_id: 1 | Action: Task deleted
