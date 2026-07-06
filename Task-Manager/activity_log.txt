@@ -75,3 +75,43 @@
 2026-07-05 21:08:13.520076 | User_id: 1 | Action: Task deleted
 2026-07-05 21:08:15.934883 | User_id: 1 | Action: User registered
 2026-07-05 21:08:16.275120 | User_id: 1 | Action: User logged in
+2026-07-05 21:12:24.042930 | User_id: 1 | Action: User logged in
+2026-07-05 21:13:27.222924 | User_id: 1 | Action: Task added
+2026-07-05 21:16:34.048925 | User_id: 1 | Action: Task fully updated
+2026-07-05 21:16:55.276652 | User_id: 1 | Action: Task partially updated
+2026-07-05 21:20:11.046177 | User_id: 1 | Action: User registered
+2026-07-05 21:20:11.353383 | User_id: 1 | Action: User logged in
+2026-07-05 21:20:13.387538 | User_id: 1 | Action: Task added
+2026-07-05 21:20:15.767548 | User_id: 1 | Action: User registered
+2026-07-05 21:20:16.126303 | User_id: 1 | Action: User logged in
+2026-07-05 21:20:18.576952 | User_id: 1 | Action: User registered
+2026-07-05 21:20:18.897085 | User_id: 1 | Action: User logged in
+2026-07-05 21:20:21.283135 | User_id: 1 | Action: User registered
+2026-07-05 21:20:21.714802 | User_id: 1 | Action: User logged in
+2026-07-05 21:20:24.237360 | User_id: 1 | Action: User registered
+2026-07-05 21:20:24.533273 | User_id: 1 | Action: User logged in
+2026-07-05 21:20:26.560724 | User_id: 1 | Action: Task added
+2026-07-05 21:20:29.068420 | User_id: 1 | Action: User registered
+2026-07-05 21:20:29.509745 | User_id: 1 | Action: User logged in
+2026-07-05 21:20:31.559561 | User_id: 1 | Action: Task added
+2026-07-05 21:20:33.948478 | User_id: 1 | Action: User registered
+2026-07-05 21:20:34.327767 | User_id: 1 | Action: User logged in
+2026-07-05 21:20:36.712480 | User_id: 1 | Action: User registered
+2026-07-05 21:20:37.029996 | User_id: 1 | Action: User logged in
+2026-07-05 21:20:39.053710 | User_id: 1 | Action: Task added
+2026-07-05 21:20:41.076701 | User_id: 1 | Action: Task fully updated
+2026-07-05 21:20:43.663177 | User_id: 1 | Action: User registered
+2026-07-05 21:20:44.060255 | User_id: 1 | Action: User logged in
+2026-07-05 21:20:46.696488 | User_id: 1 | Action: User registered
+2026-07-05 21:20:47.025140 | User_id: 1 | Action: User logged in
+2026-07-05 21:20:49.048923 | User_id: 1 | Action: Task added
+2026-07-05 21:20:51.076314 | User_id: 1 | Action: Task partially updated
+2026-07-05 21:20:53.446510 | User_id: 1 | Action: User registered
+2026-07-05 21:20:53.754104 | User_id: 1 | Action: User logged in
+2026-07-05 21:20:56.143668 | User_id: 1 | Action: User registered
+2026-07-05 21:20:56.445966 | User_id: 1 | Action: User logged in
+2026-07-05 21:20:58.476958 | User_id: 1 | Action: Task added
+2026-07-05 21:21:00.499360 | User_id: 1 | Action: Task partially updated
+2026-07-05 21:21:00.516298 | User_id: 1 | Action: Task deleted
+2026-07-05 21:21:02.923473 | User_id: 1 | Action: User registered
+2026-07-05 21:21:03.404740 | User_id: 1 | Action: User logged in
