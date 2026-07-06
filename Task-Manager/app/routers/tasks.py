@@ -218,7 +218,6 @@ def delete_task(request: Request, task_id: int, background_tasks: BackgroundTask
     Delete a specific task by its ID.
 
     - Only tasks that are currently completed can be deleted.
-    - Raises a 400 error if an attempt is made to delete a pending or in-progress task.
     - Returns a 204 status code upon successful deletion.
     """
     db_task = get_task_or_404(db, task_id)

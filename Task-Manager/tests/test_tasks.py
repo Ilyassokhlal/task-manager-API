@@ -28,23 +28,23 @@ class TestCreateTask:
 
 class TestReadTasks:
     """Tests for GET /tasks and GET /tasks/{id}"""
-    def test_list_tasks_empty(self, client):
-        response = client.get("/tasks/")
+    def test_list_tasks_empty(self, client, auth_headers):
+        response = client.get("/tasks/", headers=auth_headers)
         assert response.status_code == 200
         assert response.json() == []
 
-    def test_list_tasks_with_data(self, client, sample_task):
-        response = client.get(f"/tasks/")
+    def test_list_tasks_with_data(self, client, sample_task, auth_headers):
+        response = client.get(f"/tasks/", headers=auth_headers)
         assert response.status_code == 200
         assert len(response.json()) == 1
 
-    def test_get_task_by_id_found(self, client, sample_task):
-        response = client.get(f"/tasks/{sample_task['id']}")
+    def test_get_task_by_id_found(self, client, sample_task, auth_headers):
+        response = client.get(f"/tasks/{sample_task['id']}", headers=auth_headers)
         assert response.status_code == 200
         assert response.json()["title"] == "Test Task"
 
-    def test_get_task_by_id_not_found(self, client):
-        response = client.get(f"/tasks/9999")
+    def test_get_task_by_id_not_found(self, client, auth_headers):
+        response = client.get(f"/tasks/9999", headers=auth_headers)
         assert response.status_code == 404
 
 
@@ -55,7 +55,8 @@ class TestUpdateTask:
             "title": "Updated Task",
             "description": "Updated description",
             "due_date": "2024-12-31T23:59:59",
-            "completed": True
+            "completed": True,
+            "priority": "medium"
             }, headers=auth_headers)
         assert response.status_code == 200
         data = response.json()
@@ -69,7 +70,8 @@ class TestUpdateTask:
             "title": "Updated Task",
             "description": "Updated description",
             "due_date": "2024-12-31T23:59:59",
-            "completed": True
+            "completed": True,
+            "priority": "medium"
         }, headers=auth_headers)
         assert response.status_code == 404
 
@@ -95,7 +97,7 @@ class TestDeleteTask:
         response = client.delete(f"/tasks/{sample_task['id']}", headers=auth_headers)
         assert response.status_code == 204
         # Verifying it is gone
-        response = client.get(f"/tasks/{sample_task['id']}")
+        response = client.get(f"/tasks/{sample_task['id']}", headers=auth_headers)
         assert response.status_code == 404
 
     def test_delete_nonexistent_task(self, client, auth_headers):
